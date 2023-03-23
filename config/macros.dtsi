@@ -1,3 +1,111 @@
+macro_k_window-grow: macro_k_window-grow{
+compatible = "zmk,behavior-macro";
+label = "macro_k_window-grow";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp RIGHT_BRACKET>;
+};
+macro_k_window-shrink: macro_k_window-shrink{
+compatible = "zmk,behavior-macro";
+label = "macro_k_window-shrink";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp LEFT_BRACKET>;
+};
+macro_k_zoom-out: macro_k_zoom-out{
+compatible = "zmk,behavior-macro";
+label = "macro_k_zoom-out";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp MINUS>;
+};
+macro_k_zoom-in: macro_k_zoom-in{
+compatible = "zmk,behavior-macro";
+label = "macro_k_zoom-in";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp EQUAL>;
+};
+macro_capture-select: macro_capture-select{
+compatible = "zmk,behavior-macro";
+label = "macro_capture-select";
+#binding-cells = <0>;
+bindings = <&kp LSHFT>, <&kp LALT>, <&kp A>;
+};
+macro_capture-screen: macro_capture-screen{
+compatible = "zmk,behavior-macro";
+label = "macro_capture-screen";
+#binding-cells = <0>;
+bindings = <&kp LSHFT>, <&kp LALT>, <&kp SLASH>;
+};
+macro_fullscreen: macro_fullscreen{
+compatible = "zmk,behavior-macro";
+label = "macro_fullscreen";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LCTRL>, <&kp F>;
+};
+macro_figma_tab-next: macro_figma_tab-next{
+compatible = "zmk,behavior-macro";
+label = "macro_figma_tab-next";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp TAB>;
+};
+macro_figma_tab-prev: macro_figma_tab-prev{
+compatible = "zmk,behavior-macro";
+label = "macro_figma_tab-prev";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHFT>, <&kp TAB>;
+};
+macro_desktop-left: macro_desktop-left{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop-left";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp RALT>, <&kp LEFT>;
+};
+macro_desktop-right: macro_desktop-right{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop-right";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp RALT>, <&kp RIGHT>;
+};
+macro_k_settings: macro_k_settings{
+compatible = "zmk,behavior-macro";
+label = "macro_k_settings";
+#binding-cells = <0>;
+bindings = <&kp RCMD>, <&kp COMMA>;
+};
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp V>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp C>;
+};
+macro_cut: macro_cut{
+compatible = "zmk,behavior-macro";
+label = "macro_cut";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp X>;
+};
+macro_select-all: macro_select-all{
+compatible = "zmk,behavior-macro";
+label = "macro_select-all";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp A>;
+};
+macro_redo: macro_redo{
+compatible = "zmk,behavior-macro";
+label = "macro_redo";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LSHFT>, <&kp Z>;
+};
+macro_undo: macro_undo{
+compatible = "zmk,behavior-macro";
+label = "macro_undo";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp Z>;
+};
 macro_next_wndw: macro_next_wndw{
 compatible = "zmk,behavior-macro";
 label = "macro_next_wndw";
