@@ -1,3 +1,15 @@
+macro_swtch-desktop-2: macro_swtch-desktop-2{
+compatible = "zmk,behavior-macro";
+label = "macro_swtch-desktop-2";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LALT>, <&kp LCMD>, <&kp NUMBER_2>;
+};
+macro_swtch-desktop-1: macro_swtch-desktop-1{
+compatible = "zmk,behavior-macro";
+label = "macro_swtch-desktop-1";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LALT>, <&kp LCTRL>, <&kp NUMBER_1>;
+};
 macro_k_window-grow: macro_k_window-grow{
 compatible = "zmk,behavior-macro";
 label = "macro_k_window-grow";
